@@ -1,0 +1,65 @@
+body{
+   background-image: linear-gradient(100deg,#001214,#001F29);
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 5px;
+    padding: 7px;
+    height:50vh;
+    width:35vw;
+    position: absolute;
+    top: 25%;
+    bottom: 25%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10px;
+  }
+  .item1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    font-size:40px;
+    border-radius: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  .size{
+      height:100%;
+      width:100%;
+      display:block;
+      border-radius:10px;
+      font-family: 'Josefin Sans', sans-serif;
+      font-size:30px;
+  }
+  .size:hover{
+    background-color:rgb(84, 97, 107);
+  }
+  .item{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    text-align: center;
+    font-size:100px;
+
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  .size1{
+      font-size:30px;
+      height:100%;
+      width:100%;
+      display:block;
+      border-radius:10px;
+      background-color:rgb(15, 129, 110);
+      font-family:'Josefin Sans', sans-serif;
+  }
+  .c{
+      font-size:18px;
+      color:black;
+
+  }
+  
